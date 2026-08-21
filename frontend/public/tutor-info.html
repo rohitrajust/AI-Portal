@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AI Tutor</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,sans-serif;background:#f4f6f9;color:#243b53}
+header{background:linear-gradient(90deg,#0B7A80,#006A73);color:#fff;padding:18px 8%}
+nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:30px;font-weight:700}
+.tag{opacity:.9}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;padding:70px 8%;align-items:center}
+.hero h1{font-size:48px;color:#0B7A80;margin-bottom:15px}
+.hero p{font-size:20px;color:#5b6b7d;margin-bottom:25px}
+.btn{display:inline-block;background:#0B7A80;color:#fff;text-decoration:none;padding:14px 28px;border-radius:8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:#fff;padding:24px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.card h3{color:#0B7A80;margin-bottom:10px}
+.card ul,.card ol{margin-left:18px;line-height:1.7}
+.section{padding:50px 8%}
+.section h2{font-size:34px;color:#0B7A80;margin-bottom:25px}
+.workflow{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center}
+.step{background:#0B7A80;color:#fff;padding:16px 20px;border-radius:8px;font-weight:600}
+.arrow{font-size:24px;color:#0B7A80}
+.highlight{background:#fff;padding:28px;border-left:5px solid #0B7A80;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+footer{margin-top:40px;background:#0B7A80;color:#fff;text-align:center;padding:28px}
+@media(max-width:768px){.hero{grid-template-columns:1fr}.hero h1{font-size:38px}}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<div class="logo">AI Tutor</div>
+<div class="tag">Learn by Being Asked, Not Just Told</div>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>Socria</h1>
+<p>A personalized learning experience for AI and software terms. Instead of just handing you a definition, it first asks what you already think a term means -- then builds on or corrects your understanding.</p>
+</div>
+
+<div class="card">
+<h3>✨ What It Does</h3>
+<ul>
+<li>❓ You ask about any AI/software term</li>
+<li>🔄 It asks what you currently understand first</li>
+<li>🧩 It builds on what you got right</li>
+<li>✅ It gently corrects what's off</li>
+<li>📈 The more you engage, the more it teaches</li>
+</ul>
+</div>
+</section>
+
+<section class="section" id="how-to-use">
+<h2>How to Use</h2>
+<div class="cards">
+<div class="card"><h3>1️⃣ Ask</h3><p>Type in any AI or software term you want to understand, e.g. "What is a token?"</p></div>
+<div class="card"><h3>2️⃣ Share Your Understanding</h3><p>The tutor asks what you already think it means -- answer in your own words.</p></div>
+<div class="card"><h3>3️⃣ Get Corrected &amp; Taught</h3><p>It builds on what you got right, and clears up what wasn't quite there.</p></div>
+<div class="card"><h3>4️⃣ Keep Going</h3><p>Ask a follow-up or a new term -- each round deepens your understanding.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Best Practices</h2>
+<div class="cards">
+<div class="card"><h3>💭 Answer Honestly</h3><p>Give your real understanding, even if you're unsure -- that's how it corrects you accurately.</p></div>
+<div class="card"><h3>🔂 Ask Follow-ups</h3><p>Dig deeper on anything that's still unclear.</p></div>
+<div class="card"><h3>📝 Try Related Terms</h3><p>Learning connects better when you explore related concepts too.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Typical Workflow</h2>
+<div class="workflow">
+<div class="step">Ask a Term</div><div class="arrow">➜</div>
+<div class="step">Share Your Understanding</div><div class="arrow">➜</div>
+<div class="step">Tutor Reviews It</div><div class="arrow">➜</div>
+<div class="step">Correct &amp; Teach</div><div class="arrow">➜</div>
+<div class="step">Ask the Next Term</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Key Benefits</h2>
+<div class="cards">
+<div class="card"><h3>🧠 Learn Actively</h3><p>Explaining your own understanding first makes it stick better.</p></div>
+<div class="card"><h3>🎯 Personalized</h3><p>Corrections are based on exactly what you got right or missed.</p></div>
+<div class="card"><h3>🔁 Continuous</h3><p>The more you ask and answer, the deeper the learning goes.</p></div>
+<div class="card"><h3>💬 No Jargon Overload</h3><p>Explanations meet you at your current level.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Who Can Use This?</h2>
+<div class="highlight">
+Beginners learning AI/software concepts • Students • Professionals brushing up on terminology • Anyone who learns better by explaining first.
+</div>
+</section>
+
+<section class="section">
+<h2>Conclusion</h2>
+<div class="highlight">
+AI Tutor turns learning into a two-way conversation -- by asking what you already know first, it teaches you exactly where you need it most.
+</div>
+</section>
+
+<footer>
+<h3>AI Tutor</h3>
+</footer>
+
+</body>
+</html>

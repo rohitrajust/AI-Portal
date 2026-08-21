@@ -1,0 +1,58 @@
+[
+  {
+    "username": "gopinath_ust",
+    "password": "Test@123",
+    "name": "Gopinath",
+    "roles": ["admin", "editor", "viewer"],
+    "allowedProjects": ["all"]
+  },
+  {
+    "username": "nazar_ust",
+    "password": "Test@123",
+    "name": "Nazar",
+    "roles": ["admin", "editor", "viewer"],
+    "allowedProjects": ["all"]
+  },
+  {
+    "username": "ehud_ust",
+    "password": "Test@123",
+    "name": "Ehud",
+    "roles": ["viewer"],
+    "allowedProjects": ["ai-model-arena"]
+  },
+  {
+    "username": "hemanth_ust",
+    "password": "Test@123",
+    "name": "Hemanth",
+    "roles": ["viewer"],
+    "allowedProjects": ["ui-generator"]
+  },
+  {
+    "username": "nagarajan_ust",
+    "password": "Test@123",
+    "name": "Nagarajan",
+    "roles": ["viewer"],
+    "allowedProjects": ["ai-whiteboard-cam"]
+  },
+  {
+    "username": "ritika_ust",
+    "password": "Test@123",
+    "name": "Ritika",
+    "roles": ["viewer"],
+    "allowedProjects": ["voice-doc-generator"]
+  },
+  {
+    "username": "rohit_ust",
+    "password": "Test@123",
+    "name": "Rohit",
+    "roles": ["viewer"],
+    "allowedProjects": ["translator"]
+  },
+  {
+    "username": "navaneeth_ust",
+    "password": "Test@123",
+    "name": "Navaneeth",
+    "roles": ["viewer"],
+    "allowedProjects": ["ai-tutor"]
+  }
+]

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AI Sketch to UI Generator</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Inter,sans-serif;
+    background:#f4f6f9;
+    color:#243b53;
+}
+
+header{
+    background:linear-gradient(90deg,#006E74,#00848B);
+    color:white;
+    padding:18px 8%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:700;
+}
+
+.tag{
+    opacity:.9;
+}
+
+.hero{
+    display:grid;
+    grid-template-columns:1.2fr .8fr;
+    gap:40px;
+    padding:70px 8%;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:50px;
+    color:#006E74;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#5b6b7d;
+    margin-bottom:25px;
+    line-height:1.7;
+}
+
+.btn{
+    display:inline-block;
+    background:#006E74;
+    color:white;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:24px;
+    border-radius:16px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+
+.card h3{
+    color:#006E74;
+    margin-bottom:10px;
+}
+
+.section{
+    padding:55px 8%;
+}
+
+.section h2{
+    font-size:34px;
+    color:#006E74;
+    margin-bottom:25px;
+}
+
+.workflow{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    justify-content:center;
+    align-items:center;
+}
+
+.step{
+    background:#006E74;
+    color:white;
+    padding:16px 22px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.arrow{
+    font-size:24px;
+    color:#006E74;
+}
+
+.highlight{
+    background:white;
+    padding:28px;
+    border-left:5px solid #006E74;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    line-height:1.8;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.feature{
+    background:white;
+    padding:24px;
+    border-radius:14px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+
+.feature h3{
+    color:#006E74;
+    margin-bottom:10px;
+}
+
+footer{
+    margin-top:40px;
+    background:#006E74;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+
+    .hero{
+        grid-template-columns:1fr;
+    }
+
+    .hero h1{
+        font-size:40px;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">AI UI Generator</div>
+<div class="tag">Sketch → Professional Interface</div>
+</nav>
+</header>
+
+<section class="hero">
+
+<div>
+<h1>UIForge</h1>
+
+<p>
+Transform hand-drawn wireframes, whiteboard sketches,
+and rough UI concepts into professional, responsive,
+production-ready user interfaces using Vision AI,
+Prompt Engineering, and Generative UI technology.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🚀 What It Does</h3>
+
+<ul>
+<li>🖼️ Upload hand-drawn sketches</li>
+<li>👁️ AI-powered sketch analysis</li>
+<li>🧠 Smart prompt generation</li>
+<li>🎨 Apply custom themes & styles</li>
+<li>💻 Generate responsive HTML UI</li>
+<li>⚡ Instant browser preview</li>
+<li>📥 Download generated HTML</li>
+<li>🌐 Ready for production deployment</li>
+</ul>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>How to Use</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>1️⃣ Upload Sketch</h3>
+<p>Upload your wireframe, whiteboard drawing, or UI concept image.</p>
+</div>
+
+<div class="card">
+<h3>2️⃣ Analyze Layout</h3>
+<p>AI identifies components, forms, sections, navigation, and user flows.</p>
+</div>
+
+<div class="card">
+<h3>3️⃣ Build Prompt</h3>
+<p>Design requirements and sketch analysis are converted into a structured UI prompt.</p>
+</div>
+
+<div class="card">
+<h3>4️⃣ Generate UI</h3>
+<p>The AI creates a modern HTML-based responsive user interface.</p>
+</div>
+
+<div class="card">
+<h3>5️⃣ Preview & Export</h3>
+<p>Preview instantly and download the generated HTML code.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+
+<h2>Typical Workflow</h2>
+<div class="workflow">
+<div class="step">Upload Sketch</div>
+<div class="arrow">➜</div>
+<div class="step">AI Analysis</div>
+<div class="arrow">➜</div>
+<div class="step">Prompt Creation</div>
+<div class="arrow">➜</div>
+<div class="step">UI Generation</div>
+<div class="arrow">➜</div>
+<div class="step">Preview Result</div>
+<div class="arrow">➜</div>
+<div class="step">Download HTML</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Benefits</h2>
+<div class="cards">
+<div class="card">
+<h3>⏱️ Faster Design Process</h3>
+<p>Reduce manual UI creation time significantly.</p>
+</div>
+<div class="card">
+<h3>💡 Rapid Prototyping</h3>
+<p>Turn ideas into working interfaces within minutes.</p>
+</div>
+<div class="card">
+<h3>🎯 Better Consistency</h3>
+<p>Generate visually consistent layouts and components.</p>
+</div>
+<div class="card">
+<h3>🚀 Accelerated Development</h3>
+<p>Move from concept to implementation much faster.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Core Features</h2>
+<div class="features">
+<div class="feature">
+<h3>🎨 Custom Design Styles</h3>
+<p>Generate Modern, Minimal, Glassmorphism, Neumorphism, Corporate, or Material UI designs.</p>
+</div>
+<div class="feature">
+<h3>🌈 Theme Personalization</h3>
+<p>Apply custom color themes and branding preferences automatically.</p>
+</div>
+<div class="feature">
+<h3>📱 Responsive Design</h3>
+<p>Every generated interface adapts seamlessly across desktop, tablet, and mobile devices.</p>
+</div>
+<div class="feature">
+<h3>⚡ Fast Generation</h3>
+<p>Generate complete UI layouts within seconds using AI-powered automation.</p>
+</div>
+<div class="feature">
+<h3>🧠 Vision AI Analysis</h3>
+<p>Understands rough sketches and extracts meaningful design intent.</p>
+</div>
+<div class="feature">
+<h3>💻 Production Ready HTML</h3>
+<p>Export clean HTML interfaces ready for integration and deployment.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Who Can Use It?</h2>
+<div class="highlight">
+UI/UX Designers • Frontend Developers • Product Managers • Startup Founders • Business Analysts • Students • Design Teams • Anyone who wants to convert sketches into professional interfaces quickly.
+</div>
+</section>
+
+<section class="section">
+<h2>Conclusion</h2>
+<div class="highlight">
+AI Sketch to UI Generator bridges the gap between design ideas and implementation. Simply upload a sketch, choose your design preferences, and instantly generate modern, responsive, and professional user interfaces ready for development and deployment.
+</div>
+</section>
+
+<footer>
+<h3>AI Sketch to UI Generator</h3>
+<p>Transforming Sketches into Beautiful Interfaces</p>
+
+</footer>
+
+</body>
+</html>

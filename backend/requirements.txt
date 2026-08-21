@@ -1,0 +1,31 @@
+# Consolidated requirements from 6 source projects.
+# Version conflict notes:
+# - Flask: arena/docgen used 3.0.3, uidesign used 3.1.3 -> using 3.1.3
+# - requests: multiple versions (2.32.3, 2.34.2) -> using 2.34.2 (newer, backward compatible)
+# - python-dotenv: versions 1.0.1, 1.0.2 -> using 1.2.2 (stable)
+# - openai: whiteboard 1.35.3, uidesign 2.46.0 -> using 2.46.0
+# - Pillow versions differ -> using permissive >=10.4.0
+
+# Core Flask + CORS + WebSocket
+Flask==3.1.3
+flask-cors==4.0.1
+flask-sock==0.5.0
+
+# Configuration & environment
+python-dotenv==1.2.2
+
+# HTTP and networking
+requests==2.34.2
+httpx==0.28.1
+urllib3>=1.26.0
+
+# LLM / API clients (Arena, Tutor, Doc Generator, Whiteboard vision, Sketch to UI)
+openai==2.46.0
+
+# Translation (Translator app). The transcript is supplied by the browser's Web
+# Speech API, so no speech-to-text SDK is required here.
+deepl>=1.18.0
+
+# Document generation
+python-docx==1.1.2
+Pillow>=10.4.0

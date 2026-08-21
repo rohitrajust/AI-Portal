@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AI Model Arena — About</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,sans-serif;background:#f4f6f9;color:#1e2433}
+header{background:linear-gradient(90deg,#0B7A80,#006A73);color:#fff;padding:18px 8%}
+nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:30px;font-weight:700}
+.tag{opacity:.9}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;padding:70px 8%;align-items:center}
+.hero h1{font-size:48px;color:#0B7A80;margin-bottom:15px}
+.hero p{font-size:20px;color:#5b6b7d;margin-bottom:25px}
+.btn{display:inline-block;background:#0B7A80;color:#fff;text-decoration:none;padding:14px 28px;border-radius:8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:#fff;padding:24px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.card h3{color:#0B7A80;margin-bottom:10px}
+.card ul{padding-left:18px;color:#4b5768}
+.card li{margin-bottom:6px}
+.section{padding:50px 8%}
+.section h2{font-size:34px;color:#0B7A80;margin-bottom:25px}
+.workflow{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center}
+.step{background:#0B7A80;color:#fff;padding:16px 20px;border-radius:8px;font-weight:600}
+.arrow{font-size:24px;color:#0B7A80}
+.highlight{background:#fff;padding:28px;border-left:5px solid #0B7A80;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.badge-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.badge{background:#E6F5F6;color:#0B7A80;font-weight:600;font-size:13px;padding:6px 14px;border-radius:999px}
+footer{margin-top:40px;background:#0B7A80;color:#fff;text-align:center;padding:28px}
+@media(max-width:768px){.hero{grid-template-columns:1fr}.hero h1{font-size:38px}}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<div class="logo">🥊 AI Model Arena</div>
+<div class="tag">Watch Two LLMs Debate, Live</div>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>ModelVerse</h1>
+<p>Give it any topic, and two independent AI models debate it in real time — arguing back and forth for several rounds — while a neutral third AI judges the exchange and declares a winner.</p>
+<div class="badge-row">
+<span class="badge">Groq · Llama 3.1</span>
+<span class="badge">Nvidia NIM</span>
+<span class="badge">Live Streaming</span>
+<span class="badge">AI Judge</span>
+</div>
+</div>
+
+<div class="card">
+<h3>✨ What It Does</h3>
+<ul>
+<li>📝 Takes any topic you type in</li>
+<li>🤖 Two different LLMs debate it turn by turn</li>
+<li>🔁 Each reply becomes the next prompt for the other model</li>
+<li>💬 Responses stream in live, like a real chat</li>
+<li>⚖️ A neutral AI judge reviews the full debate</li>
+<li>🏆 Declares a winner with reasoning</li>
+</ul>
+</div>
+</section>
+
+<section class="section">
+<h2>How to Use</h2>
+<div class="cards">
+<div class="card"><h3>1️⃣ Enter a Topic</h3><p>Type any subject you'd like the two models to debate.</p></div>
+<div class="card"><h3>2️⃣ Set Rounds</h3><p>Choose how many back-and-forth exchanges to run (default: 5).</p></div>
+<div class="card"><h3>3️⃣ Start Debate</h3><p>Model A opens with its stance on the topic.</p></div>
+<div class="card"><h3>4️⃣ Watch It Unfold</h3><p>Model B responds, then Model A replies again, streaming live.</p></div>
+<div class="card"><h3>5️⃣ See the Verdict</h3><p>An independent AI judge reviews the debate and declares a winner.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Best Practices</h2>
+<div class="cards">
+<div class="card"><h3>🎯 Be Specific</h3><p>Clear, focused topics produce sharper, more interesting debates.</p></div>
+<div class="card"><h3>🔢 Start Small</h3><p>Try 3–5 rounds first before running longer debates.</p></div>
+<div class="card"><h3>🌐 Stable Connection</h3><p>Each round calls external AI APIs, so a steady connection helps.</p></div>
+<div class="card"><h3>🔍 Read the Verdict</h3><p>The judge's reasoning often reveals the strongest arguments made.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Typical Workflow</h2>
+<div class="workflow">
+<div class="step">Enter Topic</div><div class="arrow">➜</div>
+<div class="step">Model A Opens</div><div class="arrow">➜</div>
+<div class="step">Model B Responds</div><div class="arrow">➜</div>
+<div class="step">Rounds Continue</div><div class="arrow">➜</div>
+<div class="step">AI Judge Reviews</div><div class="arrow">➜</div>
+<div class="step">Verdict Displayed</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Key Benefits</h2>
+<div class="cards">
+<div class="card"><h3>⚡ Live & Interactive</h3><p>Responses stream in one by one instead of loading all at once.</p></div>
+<div class="card"><h3>🧠 Genuine Model Diversity</h3><p>Two different providers and models argue, not one model talking to itself.</p></div>
+<div class="card"><h3>⚖️ Impartial Judging</h3><p>A separate AI evaluates the exchange, not either debater.</p></div>
+<div class="card"><h3>🎛️ Configurable</h3><p>Control the topic and number of debate rounds yourself.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Who Can Use This?</h2>
+<div class="highlight">
+Students exploring AI reasoning • Debate & critical-thinking practice • Developers comparing LLM behavior • Anyone curious how different models argue the same topic differently.
+</div>
+</section>
+
+
+<section class="section">
+<h2>Conclusion</h2>
+<div class="highlight">
+AI Model Arena turns any topic into a live debate between two independent AI models, judged by a third neutral AI. It's a hands-on way to see how different models reason, argue, and respond to challenge — all in real time.
+</div>
+</section>
+
+<footer>
+<h3>🥊 AI Model Arena</h3>
+</footer>
+
+</body>
+</html>

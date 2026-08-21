@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# dotenv and secrets
+.env
+.env.*
+.env.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs and reports
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Python bytecode
+*.pyc
+
+# Uploaded/generated assets
+uploads/
+generated/
+static/uploads/
+
+# Large model files
+yolov8*.pt
+*.ckpt
+*.h5
+
+# node
+node_modules/

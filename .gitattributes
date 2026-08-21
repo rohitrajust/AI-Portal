@@ -1,0 +1,9 @@
+# Normalize line endings: LF in the repository, checked out per-platform default.
+* text=auto
+
+# Never let line-ending normalization touch binary assets.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.docx binary

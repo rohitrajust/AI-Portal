@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Voice Document Generator</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,sans-serif;background:#f4f6f9;color:#243b53}
+header{background:linear-gradient(90deg,#0097ac,#006e74);color:#fff;padding:18px 8%}
+nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:30px;font-weight:700}
+.tag{opacity:.9}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;padding:70px 8%;align-items:center}
+.hero h1{font-size:48px;color:#0097ac;margin-bottom:15px}
+.hero p{font-size:20px;color:#5b6b7d;margin-bottom:25px}
+.btn{display:inline-block;background:#0097ac;color:#fff;text-decoration:none;padding:14px 28px;border-radius:8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:#fff;padding:24px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.card h3{color:#0097ac;margin-bottom:10px}
+.card ul,.card ol{margin-left:18px;line-height:1.7}
+.section{padding:50px 8%}
+.section h2{font-size:34px;color:#0097ac;margin-bottom:25px}
+.workflow{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center}
+.step{background:#0097ac;color:#fff;padding:16px 20px;border-radius:8px;font-weight:600}
+.arrow{font-size:24px;color:#0097ac}
+.highlight{background:#fff;padding:28px;border-left:5px solid #0097ac;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.doctypes{display:flex;flex-wrap:wrap;gap:10px}
+.doctypes span{background:#ecfeff;color:#006e74;padding:8px 16px;border-radius:999px;font-weight:600;font-size:14px;border:1px solid rgba(0,151,172,.25)}
+footer{margin-top:40px;background:#0097ac;color:#fff;text-align:center;padding:28px}
+@media(max-width:768px){.hero{grid-template-columns:1fr}.hero h1{font-size:38px}}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<div class="logo">Voice Doc Generator</div>
+<div class="tag">Speak It. Get The Document.</div>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>EchoDocs</h1>
+<p>An AI-powered application that listens to you describe what you need out loud, and turns your words into a fully written, professional business document -- ready to review and download.</p>
+</div>
+
+<div class="card">
+<h3>✨ What It Does</h3>
+<ul>
+<li>🎤 Record your requirements using voice</li>
+<li>📝 Convert speech into text automatically</li>
+<li>📄 Identify the right document type</li>
+<li>🤖 Generate a professionally structured document</li>
+<li>✏️ Review and edit before finishing</li>
+<li>⬇️ Download as a Word (.docx) file</li>
+</ul>
+</div>
+</section>
+
+<section class="section" id="how-to-use">
+<h2>How to Use</h2>
+<div class="cards">
+<div class="card"><h3>1️⃣ Launch</h3><p>Open the Voice Document Generator in your browser.</p></div>
+<div class="card"><h3>2️⃣ Record</h3><p>Click "Start Recording" and speak naturally about the document you need.</p></div>
+<div class="card"><h3>3️⃣ Stop &amp; Review Layout</h3><p>Click "Stop." The app suggests a document structure based on what you said -- edit anything you like.</p></div>
+<div class="card"><h3>4️⃣ Generate</h3><p>Click "Generate Document" to have the full document written out for you.</p></div>
+<div class="card"><h3>5️⃣ Download</h3><p>Review the finished document, then download it as a .docx file.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Supported Document Types</h2>
+<div class="doctypes">
+<span>Business Requirement Document (BRD)</span>
+<span>User Story</span>
+<span>Proposal Document</span>
+<span>Email Draft</span>
+<span>Meeting Minutes</span>
+<span>Project Plan</span>
+</div>
+</section>
+
+<section class="section">
+<h2>Best Practices</h2>
+<div class="cards">
+<div class="card"><h3>🎙️ Speak Clearly</h3><p>Speak at a steady, natural pace for the best results.</p></div>
+<div class="card"><h3>📌 Be Complete</h3><p>Mention all the important details while you're narrating.</p></div>
+<div class="card"><h3>🧭 Cover the Full Picture</h3><p>Explain the goal, who's involved, and what's expected in one go.</p></div>
+<div class="card"><h3>👀 Review Before Downloading</h3><p>Check the generated document and make any edits you need.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Typical Workflow</h2>
+<div class="workflow">
+<div class="step">Open Application</div><div class="arrow">➜</div>
+<div class="step">Start Recording</div><div class="arrow">➜</div>
+<div class="step">Speak Your Requirements</div><div class="arrow">➜</div>
+<div class="step">Stop Recording</div><div class="arrow">➜</div>
+<div class="step">Document Generated</div><div class="arrow">➜</div>
+<div class="step">Review &amp; Edit</div><div class="arrow">➜</div>
+<div class="step">Download (.docx)</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Key Benefits</h2>
+<div class="cards">
+<div class="card"><h3>⏱️ Saves Time</h3><p>Turns spoken ideas into a finished document in minutes.</p></div>
+<div class="card"><h3>📋 Professional Output</h3><p>Creates clean, properly structured documentation every time.</p></div>
+<div class="card"><h3>✏️ Fully Editable</h3><p>Review and adjust anything before the final download.</p></div>
+<div class="card"><h3>💻 Simple to Use</h3><p>No technical skill needed -- just speak naturally.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Who Can Use This?</h2>
+<div class="highlight">
+Business Analysts • Project Managers • Product Owners • Functional Consultants • Business Teams • Anyone who needs to quickly turn spoken ideas into a written document.
+</div>
+</section>
+
+<section class="section">
+<h2>Conclusion</h2>
+<div class="highlight">
+The Voice Document Generator simplifies business documentation by transforming spoken ideas into structured, editable, and professional documents. It helps you create high-quality documentation faster, with far less manual typing.
+</div>
+</section>
+
+<footer>
+<h3>Voice Document Generator</h3>
+</footer>
+
+</body>
+</html>
